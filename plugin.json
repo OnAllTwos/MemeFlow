@@ -1,0 +1,12 @@
+{
+    "ID": "d1afc9481c564c778d8687df1837a0b8",
+    "ActionKeyword": "fm",
+    "Name": "MemeFlow",
+    "Description": "Create memes with FlowLauncher",
+    "Author": "OnAllTwos",
+    "Version": "0.0.1",
+    "Language": "python",
+    "Website": "https://github.com/gamebuilder116",
+    "IcoPath": "./icon.png",
+    "ExecuteFileName": "main.py"
+}
