@@ -1,4 +1,4 @@
-from typing import TypedDict
+from typing import TypedDict, NotRequired
 
 class JsonRPCAction(TypedDict):
     method: str
@@ -6,10 +6,10 @@ class JsonRPCAction(TypedDict):
 
 class QueryResponse(TypedDict):
     title: str
-    subTitle: str
-    icoPath: str
-    jsonRPCAction: JsonRPCAction
-    score: int
+    subTitle: NotRequired[str]
+    icoPath: NotRequired[str]
+    jsonRPCAction: NotRequired[JsonRPCAction]
+    score: NotRequired[int]
 
 class QueryComponents(TypedDict):
     template: str
