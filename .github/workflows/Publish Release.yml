@@ -32,8 +32,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r ./requirements.txt -t ./lib
           $exclude = @("*.git", ".devcontainer")
-          $files = Get-ChildItem -Path ./MemeFlow -Exclude $exclude
+          $files = Get-ChildItem -Path . -Exclude $exclude
           Compress-Archive -Path $files -DestinationPath Flow.Launcher.Plugin.MemeFlow.zip
+        # zip -r Flow.Launcher.Plugin.MemeFlow.zip . -x '*.git*' '.devcontainer/*'
       - name: Publish
         if: success()
         uses: softprops/action-gh-release@v1
