@@ -37,8 +37,6 @@ jobs:
           $exclude = @("*.git*", ".devcontainer")
           $files = Get-ChildItem -Path . -Exclude $exclude
           Compress-Archive -Path $files -DestinationPath Flow.Launcher.Plugin.MemeFlow.zip
-        run: |
-          rm -r 
       - name: Publish
         if: success()
         uses: softprops/action-gh-release@v1
