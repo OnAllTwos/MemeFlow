@@ -1,4 +1,4 @@
 MemePy ~= 1.2.1
 flowlauncher ~= 0.2.0
 Pillow ~= 9.4.0
-pywin32 ~= 306
+pywin32
