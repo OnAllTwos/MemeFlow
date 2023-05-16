@@ -1,5 +1,9 @@
+from datetime import datetime
+
 from flowlauncher import FlowLauncher
 from flow_types import QueryResponse, QueryComponents
+
+
 from MemePy.MemeGenerator import MemeFactory, get_meme_factory, MemeLib
 from MemePy.MemeModel import MemeImage
 
@@ -44,9 +48,10 @@ class MemeFlow(FlowLauncher):
                 buffer = BytesIO()
                 factory.output_image.save(buffer, format="JPEG")
 
+                now = datetime.now()
                 temp_image_path = Path(
                         gettempdir(),
-                        f"{components['template']}_{'_'.join(components['args'])}.jpg"
+                        now.strftime(r"%Y_%m_%d_%H_%M_%S")
                     )
 
                 with open(temp_image_path, "wb") as f:
