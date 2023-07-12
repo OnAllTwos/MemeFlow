@@ -4,9 +4,9 @@
     "Name": "MemeFlow",
     "Description": "Create memes with FlowLauncher",
     "Author": "OnAllTwos",
-    "Version": "0.1.0",
+    "Version": "0.1.1",
     "Language": "python",
-    "Website": "https://github.com/gamebuilder116",
+    "Website": "https://github.com/OnAllTwos",
     "IcoPath": "./icon.png",
     "ExecuteFileName": "main.py"
 }
