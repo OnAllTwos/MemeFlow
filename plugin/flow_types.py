@@ -1,4 +1,4 @@
-from typing import TypedDict, NotRequired
+from typing_extensions import TypedDict, NotRequired
 
 class JsonRPCAction(TypedDict):
     method: str
