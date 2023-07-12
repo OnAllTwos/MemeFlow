@@ -1,0 +1,59 @@
+{
+    "Oh": {
+        "filename": "oh.jpg",
+        "text_zones" : [
+            {
+                "pos": [60, 0],
+                "dimensions": [400, 95],
+                "font": "arial.ttf",
+                "font_size": 24
+            }
+        ]
+    },
+    "LaprasWhole": {
+        "filename": "lapraswhole.jpg",
+        "text_zones" : [
+            {
+                "pos": [60, 0],
+                "dimensions": [400, 95],
+                "font": "arial.ttf",
+                "font_size": 24
+            }
+        ]
+    },
+    "FarquaadPoint": {
+        "filename": "farquaadpoint.jpg",
+        "text_zones" : [
+            {
+                "pos": [60, 0],
+                "dimensions": [400, 95],
+                "font": "impact.ttf",
+                "font_size": 24,
+                "centering": ["True", "True"]
+            }
+        ]
+    },
+    "Normalize": {
+        "filename": "normalize.jpg",
+        "text_zones" : [
+            {
+                "pos": [0, 0],
+                "dimensions": [500, 100],
+                "font": "impact.ttf",
+                "font_size": 56,
+                "centering": ["True", "True"],
+                "text_color": [255,255,255],
+                "outline": "True"
+            },
+            {
+                "pos": [0, 400],
+                "dimensions": [500, 100],
+                "font": "impact.ttf",
+                "font_size": 56,
+                "centering": ["True", "True"],
+                "text_color": [255,255,255],
+                "outline": "True"
+            }
+        ]
+    }
+}
