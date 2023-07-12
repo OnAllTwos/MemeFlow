@@ -4,7 +4,7 @@
     "Name": "MemeFlow",
     "Description": "Create memes with FlowLauncher",
     "Author": "OnAllTwos",
-    "Version": "0.1.1",
+    "Version": "0.2.0",
     "Language": "python",
     "Website": "https://github.com/OnAllTwos",
     "IcoPath": "./icon.png",
