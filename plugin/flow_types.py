@@ -1,8 +1,10 @@
 from typing_extensions import TypedDict, NotRequired
 
+
 class JsonRPCAction(TypedDict):
     method: str
     parameters: list[str]
+
 
 class QueryResponse(TypedDict):
     title: str
@@ -10,6 +12,7 @@ class QueryResponse(TypedDict):
     icoPath: NotRequired[str]
     jsonRPCAction: NotRequired[JsonRPCAction]
     score: NotRequired[int]
+
 
 class QueryComponents(TypedDict):
     template: str

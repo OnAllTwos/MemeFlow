@@ -51,7 +51,7 @@ class MemeFlow(FlowLauncher):
                 now = datetime.now()
                 temp_image_path = Path(
                         gettempdir(),
-                        now.strftime(r"%Y_%m_%d_%H_%M_%S")
+                        f'memeflow_{now.strftime(r"%Y_%m_%d_%H_%M_%S")}.jpg'
                     )
 
                 with open(temp_image_path, "wb") as f:
